@@ -177,7 +177,7 @@ nav{
 .menu.responsive{
 	width: 100%!important;
 	width: 100%;
-	height: 85vh!important;
+	height: 95vh!important;
 	background-color: black;
 	position: relative;
 	top: 0;
@@ -263,6 +263,16 @@ nav{
 
  	margin-right: 25px;
  }
+ .menu.responsive{
+	width: 100%!important;
+	width: 100%;
+	height: 90vh!important;
+	background-color: black;
+	position: relative;
+	top: 0;
+	z-index: 11111;
+
+	}
 
 
 }
@@ -306,6 +316,16 @@ nav{
 	}
 
 	}
+	.menu.responsive{
+	width: 100%!important;
+	width: 100%;
+	height: 85vh!important;
+	background-color: black;
+	position: relative;
+	top: 0;
+	z-index: 11111;
+
+	}
 
 @media (max-width: 699px){
    .me img{
@@ -339,6 +359,28 @@ nav{
 
  	margin-right: 20px;
  }
+  	  .center_content h1{
+font-size: 35px;
+	
+	}
+ 	  .center_content h2{
+font-size: 20px;
+	
+	}
+	.menu.responsive{
+	width: 100%!important;
+	width: 100%;
+	height: 80vh!important;
+	background-color: black;
+	position: relative;
+	top: 0;
+	z-index: 11111;
+
+	}
+	.logo{
+		width: 85%;
+		top: 60%;
+	}
 
 	}
 
@@ -380,8 +422,26 @@ nav{
 
  }
   .center_content h1{
-font-size: 35px;
+font-size: 30px;
 	
+	}
+	  .center_content h2{
+font-size: 20px;
+	
+	}
+	.menu.responsive{
+	width: 100%!important;
+	width: 100%;
+	height: 80vh!important;
+	background-color: black;
+	position: relative;
+	top: 0;
+	z-index: 11111;
+
+	}
+	.logo{
+		width: 85%;
+		top: 60%;
 	}
 
 	}
