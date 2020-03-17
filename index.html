@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		NARENDRA
+	</title>
+	<link rel="stylesheet" type="text/css" href="E:\website1\style.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script type="text/javascript">
+		function responsive_bar(){
+			var e = document.getElementById('small_menu');
+
+			if(e.className === 'menu'){
+				e.className += " responsive";
+
+			}else{
+				e.className = 'menu';
+			}
+		}
+
+	</script>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<img src="logo2.png">
+			</div>
+
+			<div class="menu" id="small_menu">
+				
+				<ul>
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#" >Gallery</a></li>
+					<li><a href="#" >Blogs</a></li>
+					<li><a href="#" >Portfolio</a></li>
+					<li><a href="#" >About</a></li>
+					<li><a href="#">Contact Me</a></li>
+				</ul>
+
+			</div>
+			<div class="bars">
+	     		<a href="#" id="bar" onclick="responsive_bar()"><i class="fa fa-bars barss"></i></a>
+			</div>
+
+		</nav>
+		<div class="me">
+			<img src="me4.png">
+		</div>
+		<div class="center_content">
+			<h1>Hello This is Narendra</h1>
+			<h2>Web developer / Blogger</h2>
+		</div>
+
+		<div class="social">
+			<div class="icons">
+				<a href="https://www.facebook.com/profile.php?id=100011625394649" target="_blank">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="icons">
+				<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="icons">
+				<a href="https://www.instagram.com/narendraverma_7/?hl=en" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</header>
+
+</body>
+</html>

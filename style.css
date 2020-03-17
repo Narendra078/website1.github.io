@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: 'Muli', sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+header{
+	width:100%;
+	height: 100vh;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(270deg, #FFFFFF 0%, #050505 50%, #050505 100%);
+	position: relative;
+	overflow: hidden;
+}
+
+nav{
+	width: 100%;
+	height: 15vh;
+	
+	justify-content: space-around;
+	text-align: center;
+	position: absolute;
+}
+.logo{
+	margin: 28px 0px; 
+	float: left;
+	position: absolute;
+	left: 10%; 
+}
+.logo img{
+	width: 125px;
+	height: 50px;
+}
+
+.bars{
+	font-size: 30px;
+	margin: 25px 0px;
+	position: absolute;
+	right: 4%;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.barss{color: grey; 
+
+}
+
+.menu{
+	margin: 35px 0px; 
+	float: right;
+	position: absolute;
+	right: 7%;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 25px;
+		float: left;
+}
+.menu ul li a{
+	text-transform: capitalize;
+}
+.active,ul li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+
+.me img{
+	width: 35%;
+	position: absolute;
+	top: 8%; 
+}
+
+
+/*  center-content  */
+
+.center_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.center_content h1{
+	color: #fff;
+	font-size: 70px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.center_content h2{
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+
+}
+
+/*  font awesome */
+
+
+/*    social media  */
+
+.social{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	right: 3%;
+	top: 38%;
+}
+.icons{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0px;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(270deg, #050505 0%, #050505 50%, #FFFFFF 100%);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+.icons:nth-child(even){
+	margin: 20px 0px;
+}
+.icons:hover{
+	background-image: linear-gradient(147deg, #050505 0%, #FFFFFF 74%);
+}
+
+
+/*     media query       */ 
+
+@media (max-width: 1200px){
+   .center_content h1{
+
+		font-size: 45px;
+		letter-spacing: 0em;
+	}
+	.me img{
+		width: 45%;
+	}
+
+	}
+
+@media (max-width: 990px){
+   
+ .logo{
+		width: 20%;
+	}
+ .menu{
+ 	width: 100%;
+ }
+ .menu ul{
+ 	opacity: 0;
+ 	visibility: hidden;
+ }
+ .menu ul li:hover{
+ 	background-color: lightgrey;
+ 	border-top: 2px solid #fff;
+ 	border-bottom: 2px solid #fff;
+
+ }
+ .bars{
+ 	opacity: 1;
+ 	visibility: visible;
+ 	z-index: 12424535;
+ 	position: absolute;
+ 	margin-top: 26px;
+ 	margin-right: 30px;
+ }
+
+.menu.responsive{
+	width: 100%!important;
+	width: 100%;
+	height: 85vh!important;
+	background-color: black;
+	position: relative;
+	top: 0;
+	z-index: 11111;
+
+	}
+	
+	.menu.responsive ul{
+		opacity: 1;
+		visibility: visible;
+	}
+	.menu.responsive ul li{
+		float: none;
+		display: block;
+		text-align: center;
+		padding: 30px 35px;
+		margin-top: 25px;
+	}
+	 .center_content h1{
+
+		font-size: 38px;
+		letter-spacing: 0em;
+		position: relative;
+		left: 10%;
+	}
+	 .center_content h2{
+
+		font-size: 18px;
+		letter-spacing: 0em;
+		position: relative;
+		left: 10%;
+	}
+	.me img{
+		width: 52%;
+	}
+
+}
+
+
+@media (max-width: 870px){
+	.me img{
+		width: 55%;
+		position: absolute;
+		left: -3%;
+		top: 13%;
+	}
+	.icons{
+		width: 30px;
+		height: 30px;
+	
+	}
+	.social{
+	position: absolute;
+	right: 5%;
+	top: 40%;
+}
+ .bars{
+
+ 	margin-right: 25px;
+ }
+
+
+}
+
+@media (max-width: 785px){
+   .me img{
+		width: 65%;
+		position: absolute;
+		left: -12%;
+		top: 9%;
+	}
+
+	}
+
+@media (max-width: 699px){
+   .me img{
+		width: 75%;
+		position: absolute;
+		left: -10%;
+		top: 16%;
+	}
+	header{
+		background-color: #FFFFFF;
+	background-image: linear-gradient(270deg, #FFFFFF 0%, #050505 35%, #050505 100%);
+	}
+
+.icons{
+	width: 40px;
+	height: 40px;
+	margin: 5px 45px;
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+	 .bars{
+
+ 	margin-right: 20px;
+ }
+
+	}
+
+
+
+
+
+
+
