@@ -140,12 +140,14 @@ nav{
 		letter-spacing: 0em;
 	}
 	.me img{
-		width: 45%;
+		width: 60%;
+		left: -13%;
 	}
+
 
 	}
 
-@media (max-width: 990px){
+@media (max-width: 992px){
    
  .logo{
 		width: 20%;
@@ -196,21 +198,39 @@ nav{
 	}
 	 .center_content h1{
 
-		font-size: 38px;
+		font-size: 48px;
 		letter-spacing: 0em;
 		position: relative;
 		left: 10%;
 	}
 	 .center_content h2{
 
-		font-size: 18px;
+		font-size: 25px;
 		letter-spacing: 0em;
 		position: relative;
 		left: 10%;
 	}
 	.me img{
-		width: 52%;
+		width: 58%;
+		left: -10%;
+		top: 22%;
 	}
+	.social{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	left: 85%;
+	top: 48%;
+}
+.icons{
+	width: 43px;
+	height: 43px;
+	margin: 0px 0px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
 
 }
 
@@ -272,7 +292,14 @@ nav{
 }
  .center_content h1{
 
-		font-size: 49px;
+		font-size: 48px;
+		letter-spacing: 0em;
+		position: relative;
+		left: 10%;
+	}
+	 .center_content h2{
+
+		font-size: 25px;
 		letter-spacing: 0em;
 		position: relative;
 		left: 10%;
@@ -353,7 +380,7 @@ nav{
 
  }
   .center_content h1{
-
+font-size: 35px;
 	
 	}
 
