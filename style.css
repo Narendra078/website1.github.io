@@ -61,6 +61,7 @@ nav{
 	display: inline-block;
 	padding: 0 25px;
 		float: left;
+		font-size: 17px;
 }
 .menu ul li a{
 	text-transform: capitalize;
@@ -388,14 +389,14 @@ font-size: 20px;
 
 	@media (max-width: 480px){
    .me img{
-		width: 93%;
+		width: 100%;
 		position: absolute;
 		left: -24%;
 		top: 28%;
 	}
 	header{
 		background-color: #FFFFFF;
-	background-image: linear-gradient(270deg, #FFFFFF 0%, #050505 35%, #050505 100%);
+	background-image: linear-gradient(270deg, #FFFFFF 0%, #050505 30%, #050505 100%);
 	}
 
 .social{

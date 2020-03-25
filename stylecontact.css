@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat",sans-serif;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+.contact-info{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+}
+.card{
+	padding: 0px 20px;
+	margin: 0px 10px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffff;
+	cursor: pointer;
+	padding: 0px 35px;
+	
+}
+.card-icon{
+	background: #fff;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px!important;
+	border-radius: 50%;
+	transition: 0.4s linear;
+	color: black;
+
+}
+.card-icon:hover{
+	color: #fff;
+	background: none;
+	transform: scale(1.5);
+
+}
+.card p{
+	margin-top: 20px; 
+	letter-spacing: 2px;
+	max-height: 0;
+	opacity: 0;
+}
+.card:hover p{
+	opacity: 1;
+	max-height: 40px;
+	transition: 1.2s ease;
+
+}
+
+@media screen and (max-width:800px){
+	.contact-info{
+		flex-direction: column;
+	}
+	.card{
+		width: 100%;
+		max-width: 300px;
+		margin: 10px 0px;
+	}
+}
